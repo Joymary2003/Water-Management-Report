@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e3f2fd; /* Light blue background */
+    color: #0d47a1; /* Dark blue text */
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: #ffffff; /* White background for the container */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input, textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #1976d2; /* Medium blue border */
+    border-radius: 4px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #1976d2; /* Medium blue button */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0d47a1; /* Dark blue on hover */
+}
+
+ul {
+    margin-top: 20px;
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background: #bbdefb; /* Light blue for list items */
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 4px;
+}
